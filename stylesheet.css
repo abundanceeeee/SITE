@@ -1,0 +1,186 @@
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+		Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+#logo{
+	height: 70px;
+}
+header{
+	position: fixed;
+	background-color: white;
+	/* z-index: -1; */
+	width: 100%;
+}
+.image{
+	display: flex;
+	gap: 1rem;
+	align-items: center;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	margin: 20px 110px;
+	align-items: center;
+	text-align: center;
+}
+.links ul {
+	list-style-type: none;
+	display: flex;
+	text-decoration: none;
+}
+
+.links ul li a {
+	text-decoration: none;
+	color: black;
+	justify-content: space-around;
+	transition: .3s;
+}
+.links ul li {
+	margin: 0 30px;
+	font-size: 12px;
+	
+}
+.links a:hover {
+	border-bottom: 3px solid #bda58b;
+	padding-bottom: 4px;
+	font-weight: 700;
+}
+
+.img img {
+	width: 100%;
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+.container {
+	display: flex;
+	justify-content: space-evenly;
+}
+li span {
+	font-weight: 750;
+}
+section {
+	margin-bottom: 200px;
+}
+.firdiv {
+	width: 62%;
+}
+.firdiv h3 {
+	line-height: 29px;
+}
+.firdiv p,
+li {
+	line-height: 18px;
+}
+.academic {
+	color:  #070606;
+
+}
+.secdiv {
+	width: 20%;
+}
+.secdiv img {
+	width: 250px;
+}
+.secdiv h2 {
+	font-weight: bold;
+	color: #193f64;
+}
+.secdiv small {
+	color: #bda58b;
+	line-height: 30px;
+}
+h3 {
+	margin: 10px 0;
+}
+.firdiv li {
+	margin-left: 40px;
+}
+.secdiv h2 {
+	font-weight: 400;
+	margin-top: 10px;
+}
+.secdiv > h2 {
+	font-weight: 700;
+}
+
+.secdiv p {
+	font-size: 12px;
+	line-height: 18px;
+	margin-top: 18px;
+	width: 250px;
+}
+.secdiv div {
+	margin-top: 40px;
+	line-height: 30px;
+}
+.secdiv a {
+	color: #e41a1a;
+	text-decoration: none;
+}
+.section2 {
+	background-color: #641b19;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+	padding: 150px 100px;
+}
+.connect p {
+	width: 250px;
+}
+.section2 h2 {
+	margin: 0 0 20px 0;
+}
+.connect > div {
+	display: flex;
+}
+.study li,
+.resources li,
+.quick-links li {
+	line-height: 28px;
+}
+.connect a {
+	text-decoration: none;
+	color: aliceblue;
+}
+.connect img {
+	margin: 12px 20px 0 20px;
+}
+.aboutUs{
+	display: flex;
+	justify-content: center;
+}
+.aboutUsContainer{
+	width: 90%;
+	display: flex;
+	gap: 4rem;
+}
+#aboutUsHead{
+	margin-bottom: 30px;
+}
+#aboutUsImg{
+	height: 400px;
+
+}
+.aboutUsRight p{
+	margin-bottom: 40px;
+}
+#learnMore{
+	color: #641b19;
+}
+
+
+footer {
+	background-color: #bda58b;
+	display: flex;
+	justify-content: space-around;
+	color: white;
+	padding: 10px 0 10px 0;
+}
